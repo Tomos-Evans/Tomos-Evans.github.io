@@ -4,7 +4,7 @@ var main = function() {
         var $input = $(event.target).find('input');
         var comment = $input.val();
 
-        if (comment != "") {
+        if (comment !== "") {
             var html = $('<li>').text(comment);
             html.prependTo('#comments');
             $input.val("");
