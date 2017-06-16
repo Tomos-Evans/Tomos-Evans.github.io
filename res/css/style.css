@@ -34,6 +34,7 @@ html {
 /*          Colours
 
  main orange : #e67e22
+
  dark orange : #cf6d17
 
 */
@@ -183,10 +184,14 @@ header {
     border: 1px solid rgba(255, 255, 255, 0);
     padding: 5px;
     transition: border 0.2s;
-
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
     border: 1px solid #e67e22;
+}
+
+.eye-nav {
+    border: 1px solid #e67e22;
+
 }
