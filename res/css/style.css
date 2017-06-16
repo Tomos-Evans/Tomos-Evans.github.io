@@ -213,3 +213,38 @@ header {
     color: #e67e22;
     margin-bottom: 10px;
 }
+
+
+/* ---------------------------- */
+/* PROJECTS SECTION             */
+/* ---------------------------- */
+.project-section {
+    padding: 0;
+}
+
+.project-showcase {
+    list-style: none;
+    width: 100%;
+}
+.project-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+.project-photo {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #000;
+}
+.project-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.project-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
