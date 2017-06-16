@@ -195,3 +195,21 @@ header {
     border: 1px solid #e67e22;
 
 }
+
+/* ---------------------------- */
+/* ABOUT SECTION                */
+/* ---------------------------- */
+
+.longCopy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+.big-icon {
+    font-size: 250%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
